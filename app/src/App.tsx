@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+const API_KEY = ""; // pUT THE aPI KEY HERE
 
 const HUMANIZERS = [
   (text: string) => text.replace(/AI/g, "Artificial Intelligence"),
